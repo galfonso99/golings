@@ -1,16 +1,18 @@
 // generics1
 // Make me compile!
 
-// I AM NOT DONE
 package main
 
-import "fmt"
+import (
+    "fmt"
+)
+import "golang.org/x/exp/constraints"
 
 func main() {
 	print("Hello, World!")
 	print(42)
 }
 
-func print(value) {
+func  print [T constraints.Integer|constraints.Float|~string] (value T) {
 	fmt.Println(value)
 }

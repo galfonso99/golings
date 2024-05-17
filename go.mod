@@ -1,6 +1,6 @@
 module github.com/mauricioabreu/golings
 
-go 1.19
+go 1.22
 
 require (
 	github.com/fatih/color v1.13.0
@@ -11,11 +11,12 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.5
 	github.com/schollz/progressbar/v3 v3.12.0
 	github.com/spf13/cobra v1.6.1
+	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
 )
 
 require (
 	github.com/go-logr/logr v1.2.3 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/mattn/go-colorable v0.1.9 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
